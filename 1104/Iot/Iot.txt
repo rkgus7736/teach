@@ -1,0 +1,57 @@
+
+OnOff 인터페이스
+	전원OnOff, 전원On, 전원Off
+	
+Light - OnOff
+	전원OnOff
+		Light On/Light Off
+	전원On
+		Light On
+	전원Off
+		Light Off
+
+Boiler - OnOff
+	전원OnOff
+		Boiler On/Boiler Off
+	전원On
+		Boiler On
+	전원Off
+		Boiler Off
+		
+Aircon - OnOff
+	전원OnOff
+		Aircon On/Aircon Off
+	전원On
+		Aircon On
+	전원Off
+		Aircon Off
+		
+IotApp
+	OnOff - 배열 length : 5
+	
+	addDevice(OnOff) : OnOff 배열 추가
+	powerOn() : 배열에 저장된 모든 기계 전원을 켬
+	powerOff() : 배열에 저장된 모든 기계 전원을 끔
+	
+			
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+
+
+
+
+
+
+
+		
+		
+		

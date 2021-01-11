@@ -1,0 +1,8 @@
+	데이터 타입
+	
+	고정형(Primitive type) : int, float, double, short, long, char.....
+		-> 가질수 있는 데이터 범위가 정해져 있음
+	
+	참조형(Refference type) : String, .....
+		-> 가질수 있는 데이터 범위가 정해져 있지 않음
+		-> 생성시 new 라는 키워드를 사용함

@@ -1,0 +1,62 @@
+MP3 Player  - Player
+	곡목록 : String[]
+	현재재생번호 : int
+	
+	생성자에서 이미 만들어져 있는 곡목록을 받아옴	
+	
+	Player가 가지고 있는 기능 전부 오버라이딩
+	play() --> ******곡 재생
+	stop() --> 재생 정지
+	next() --> 다음 곡 재생 ---> ******곡 재생
+	prev() --> 이전 곡 재생 ---> ******곡 재생
+	
+CD Player - Player
+	트랙 번호 : int (0~트랙 번호)
+	현재 재생할 트랙 번호 : int
+	
+	play() - Track 02 Play
+	stop() - Play Stop
+	next() - Next Track Play -> Track 03 Play
+	prev() - Prev Track Play -> Track 02 Play
+	
+사용자
+	Player
+	
+	생성자에서는 생성된 Player(CDPlayer,MP3Player)를 받아옴
+	
+	changePlay(Player p) - 새 Player를 받아옴
+	
+	usePlayer() - 플레이어를 제어
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
